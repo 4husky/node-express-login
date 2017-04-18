@@ -1,0 +1,12 @@
+[
+  {
+    "email": "admin@uit.vn",
+    "name": "User Admin",
+    "password": "123"
+  },
+  {
+    "email": "bob@uit.vn",
+    "name": "Bobby",
+    "password": "123"
+  }
+]

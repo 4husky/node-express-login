@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title} Login TH3
+    form(name="login", action="/login", method="post")
+        div.input
+            span.label Email
+            input(type="text", name="email", placeholder="@" )
+        div.input
+            span.label Password
+            input(type="password", name="password", placeholder="Password")
+        div.actions
+            input(type="submit", value="Login")
+     - each message in flash
+          h4  #{message}

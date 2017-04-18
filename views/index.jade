@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	if(authenticated == true) 
+		h1 Welcome  #{title}.
+			p Navigate to
+				ul
+					li: a(href="/logout") Logout
+	else
+		h1 Welcome to #{title}
+			ul
+				li: a(href="/login") Login		
